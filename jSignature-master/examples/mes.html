@@ -45,7 +45,17 @@ var timeID=setTimeout(showLeftTime,1000);
 <div class="header"><h1>welcome</h1></div>
 <div class="time"><label id="show">显示时间的位置</label></div>
 <div class="log"><img src="1.jpg" style="width: 25%;height: 12.5%;margin-left: 35vw;"></div>
-</span><div id="page-content"></div>
+<header>
+    
+      <form >
+      <div class="name">name:</div><input type="text" class="inputTodo" name="name">
+      <input type="reset" name="">
+      <br>
+     <div class="name">email:</div><input type="text" class="inputTodo two" name="email">
+      <input type="reset" name="">
+       <br>
+      </form>
+    </header>
 <div class="board">
 <div id="content">
   <div id="signatureparent">
@@ -213,74 +223,10 @@ $(document).ready(function() {
 	}
 	
 })
-re()
 
-</script>
-<script type="text/template" id="tpl">
-  <div class="todo-app">
-    <header>
-      <h1>Todos</h1>
-      <form >
-      <div class="name">name:</div><input type="text" class="inputTodo" name="name">
-      <input type="reset" name="">
-      <br>
-     <div class="name">email:</div><input type="text" class="inputTodo two" name="email">
-      <input type="reset" name="">
-       <br>
-      </form>
-    </header>
-  </div>
 </script>
 <script>
-  Handlebars.registerHelper('ifCond', function(v1, v2, options) {
-    console.log(options, this);
-    if(v1 === v2) {
-      return options.fn(this);
-    }
-    return options.inverse(this);
-  });
-  Handlebars.registerHelper('length', function(todos) {
-    return todos.filter(it => !it.done).length
-  })
-</script>
-<script>
-  var todos
-
-  if (localStorage.todos) {
-    todos = JSON.parse(localStorage.todos)
-  } else {
-    todos = [{
-     
-      content: 'eatting'
-    }, {
-   
-      content: 'sleep'
-    }]
-  }
-
-
-
-
-
-  var tplSource = $('#tpl').html()
-  var compiled = Handlebars.compile(tplSource)
-
-  var show = 'all'
-
-  function render() {
-    localStorage.todos = JSON.stringify(todos)
-    var info = {}
-    info.show = show
-    info.activeCount = todos.filter(it => !it.done).length
-    info.allDone = todos.length ? todos.every(it => it.done) : false
-    var pageHtml = compiled({
-      todos: todos,
-      info: info,
-    })
-    $('#page-content').html(pageHtml)
-  }
-
-  render()
+  
 
   $('#page-content')
     .on('keypress', '.inputTodo', function(event) {
