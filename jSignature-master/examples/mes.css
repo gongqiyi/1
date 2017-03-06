@@ -36,6 +36,7 @@ html,body {
    .time{
    	font-size: 0.3rem;
    	text-align: right;
+   	margin-right: .5rem;
     margin-top: .3rem;
    }
    .time #show{
@@ -172,8 +173,6 @@ footer{
 #scrollgrabber{
 display: none;
 }
-.re{
-	position: absolute;
-	left: 7rem;
-	top: .3rem;
+#tools input{
+	float: right;
 }
