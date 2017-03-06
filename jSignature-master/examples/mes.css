@@ -11,8 +11,8 @@ html,body {
    
   .header{
 		background-color: #00AFEF;
-			width: 100vw;
-			height: 1rem；
+			width: 100%;
+			height: 10%；
 			position:relative;
 		}
    .first{
@@ -34,15 +34,16 @@ html,body {
    	font-weight: bold;
    }
    .time{
-   	font-size: 0.18rem;
-   	margin-left: 6.3rem;
+   	font-size: 0.3rem;
+   	text-align: right;
+   	margin-right: 2.7rem;
     margin-top: .3rem;
    }
    .time #show{
-   	 font-weight: 300;
+   	 font-weight: 100;
    }
    .name1{
-   	  	margin-top: .7rem;
+   	  	margin-top: 1.5rem;
    }
    .name img{
    	vertical-align: -.2rem;
@@ -52,8 +53,7 @@ html,body {
    .name{
    	font-size: .4rem;
    	vertical-align: -0.05rem;
-   	margin-left: .5rem;
-   	display: inline-block;
+   	margin-left: 1rem;
    }
 	.board {
 		margin-top:1em;
@@ -89,8 +89,8 @@ html,body {
 		border: 1px dotted black;
 		background-color:#fff;
 		margin-top: -1.3rem;
-		margin-left: 1.3rem;
-		width: 5.9rem;
+		margin-left: 2.5rem;
+		width: 7.9rem;
 		height: 5rem;
 	}
 
@@ -146,7 +146,7 @@ html,body {
 	margin-left: .3rem;
 }
 .sign{
-	margin-left: .5rem;
+	margin-left: 1rem;
 }
 footer{
 	font-size: .2rem;
@@ -154,13 +154,13 @@ footer{
 }
 .reset1{
 	position: absolute;
-	top: 4rem;
-	left: 65vw;
+	top: 5rem;
+	left: 90vw;
 }
 .reset2{
 	position: absolute;
-	top: 5.4rem;
-	left: 65vw;
+	top: 6.4rem;
+	left: 90vw;
 }
 #tools{
 	position: relative;
