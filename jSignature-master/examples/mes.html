@@ -5,6 +5,7 @@
 <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
    Remove this if you use the .htaccess -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 <!-- <meta name="viewport" content="initial-scale=1.0, target-densitydpi=device-dpi" /> --><!-- this is for mobile (Android) Chrome -->
 <meta name="viewport" content="initial-scale=1.0, width=device-height"><!--  mobile Safari, FireFox, Opera Mobile  -->
 <link rel="stylesheet" type="text/css" href="reset.css">
@@ -64,7 +65,7 @@ var timeID=setTimeout(showLeftTime,1000);
     <div></div>
     <div id="signature"></div></div>
   <div id="tools">
-    <button class="post" style="font-size: .2rem;margin-left: 2.6rem;">提交</button>
+    <button class="post" style="font-size: .2rem;">提交</button>
   </div>
   <div><p></p><div id="displayarea"></div></div>
 </div>
@@ -165,7 +166,7 @@ $(document).ready(function() {
 	}).appendTo($tools)
 
 	
-	$('<input type="button" value="Reset" style="font-size: .15rem;margin-left:2.5rem"> ').bind('click', function(e){
+	$('<input type="button" value="Reset" style="font-size: .2rem;"> ').bind('click', function(e){
 		$sigdiv.jSignature('reset')
 	}).appendTo($tools)
 	

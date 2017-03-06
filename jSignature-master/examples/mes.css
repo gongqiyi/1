@@ -128,6 +128,7 @@ html,body {
 	width: 5.7rem;
 	border-top: 0px;
 	border-left: 0px;
+	border-right: 0px;
 	border-bottom: 2px solid black;
 }
 .line{
