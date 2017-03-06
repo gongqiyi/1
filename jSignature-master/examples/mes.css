@@ -5,8 +5,6 @@ html,body {
     font-family: 'Roboto', 'Noto', sans-serif;
   }
    h1{
-   	
-   	text-transform:capitalize;
    	font-size: 0.5rem;
    }
 		
@@ -15,6 +13,7 @@ html,body {
 		background-color: #00AFEF;
 			width: 100%;
 			height: 10%；
+			position:relative;
 		}
    .first{
    	font-size: .8rem;
@@ -89,8 +88,8 @@ html,body {
 		border: 1px dotted black;
 		background-color:#fff;
 		margin-top: -1.3rem;
-		margin-left: 2.2rem;
-		width: 5.9rem;
+		margin-left: 2.5rem;
+		width: 7.9rem;
 		height: 5rem;
 	}
 
@@ -125,10 +124,11 @@ html,body {
   }
 .inputTodo{
 	font-size: .3rem;
-	width: 5.7rem;
+	width: 7.3rem;
 	border-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
+	border-radius: 0px;
 	border-bottom: 2px solid black;
 }
 .line{
@@ -150,4 +150,30 @@ html,body {
 footer{
 	font-size: .2rem;
 	text-align: center;
+}
+.reset1{
+	position: absolute;
+	top: 4.8rem;
+	left: 90vw;
+}
+.reset2{
+	position: absolute;
+	top: 6.2rem;
+	left: 90vw;
+}
+#tools{
+	position: relative;
+}
+.post{
+	position: absolute;
+	left: 5.2rem;
+	top: .3rem;
+}
+#scrollgrabber{
+display: none;
+}
+.re{
+	position: absolute;
+	left: 6rem;
+	top: .2rem;
 }

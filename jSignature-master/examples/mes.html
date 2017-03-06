@@ -49,11 +49,11 @@ var timeID=setTimeout(showLeftTime,1000);
 <div class="log"><img src="1.jpg" style="width: 26.4%;height: 12%;margin-left: 35vw;"></div>
     <header>
      <form >
-      <div class="name name1"><img src="2.png"></div><span class="line"></span><input type="text" class="inputTodo" name="name">
-      <input type="reset" name="" class="reset" style="font-size: .2rem">
+      <div class="name name1"><img src="2.png"></div></span><input type="text" class="inputTodo" name="name">
+      <input type="reset" name="" class="reset reset1" style="font-size: .2rem">
       <br>
      <div class="name"><img src="3.png"></div><input type="text" class="inputTodo two" name="email" >
-      <input type="reset" name="" class="reset" style="font-size: .2rem">
+      <input type="reset" name="" class="reset reset2" style="font-size: .2rem">
        <br>
       </form>
     </header>
@@ -64,7 +64,7 @@ var timeID=setTimeout(showLeftTime,1000);
     <div></div>
     <div id="signature"></div></div>
   <div id="tools">
-    <button class="post" style="font-size: .2rem;">提交</button>
+    <button class="post" style="font-size: .27rem;">提交</button>
   </div>
   <div><p></p><div id="displayarea"></div></div>
 </div>
@@ -127,7 +127,7 @@ http://dojofoundation.org/license for more information.
 $(document).ready(function() {
 	
 	// This is the part where jSignature is initialized.
-	var $sigdiv = $("#signature").jSignature({'UndoButton':true,height:"6rem",width:"6rem"})
+	var $sigdiv = $("#signature").jSignature({'UndoButton':true,height:"6rem",width:"7rem"})
 	
 	// All the code below is just code driving the demo. 
 	, $tools = $('#tools')
@@ -165,7 +165,7 @@ $(document).ready(function() {
 	}).appendTo($tools)
 
 	
-	$('<input type="button" value="Reset" style="font-size: .2rem;"> ').bind('click', function(e){
+	$('<input type="button" value="Reset" class="re" style="font-size: .2rem;"> ').bind('click', function(e){
 		$sigdiv.jSignature('reset')
 	}).appendTo($tools)
 	
