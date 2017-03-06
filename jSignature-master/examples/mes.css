@@ -36,7 +36,7 @@ html,body {
    .time{
    	font-size: 0.3rem;
    	text-align: right;
-   	margin-right: .5rem;
+   	margin-right: .8rem;
     margin-top: .3rem;
    }
    .time #show{
@@ -167,8 +167,9 @@ footer{
 }
 .post{
 	position: absolute;
+	font-size: .3rem;
 	left: 5.2rem;
-	top: .3rem;
+	top: .2rem;
 }
 #scrollgrabber{
 display: none;
