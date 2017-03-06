@@ -77,17 +77,21 @@ html,body {
 		margin: .5em;
 	}
 	
-	#signatureparent {
+	/*#signatureparent {
 		color:darkblue;
-		background-color:darkgrey;
-		/*max-width:600px;*/
+	
+		max-width:600px;
 		padding:20px;
 	}
-	
+	*/
 	/*This is the div within which the signature canvas is fitted*/
 	#signature {
-		border: 2px dotted black;
-		background-color:lightgrey;
+		border: 1px dotted black;
+		background-color:#fff;
+		margin-top: -1.6rem;
+		margin-left: 2.2rem;
+		width: 60%;
+		height: 3rem;
 	}
 
     #signature img{
@@ -141,8 +145,4 @@ html,body {
 }
 .sign{
 	margin-left: 1.5rem;
-}
-canvas .jSignature{
-	width: 3rem;
-	height: 3rem;
 }
