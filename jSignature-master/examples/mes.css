@@ -5,27 +5,56 @@ html,body {
     font-family: 'Roboto', 'Noto', sans-serif;
   }
    h1{
-   	color: #fff;
+   	
    	text-transform:capitalize;
    	font-size: 0.5rem;
    }
 		
    
   .header{
-		background-color: blue;
+		background-color: #00AFEF;
 			width: 100%;
-			height: 20%；
+			height: 10%；
 		}
+   .first{
+   	font-size: .8rem;
+   	color: #fff;
+   	font-family: sans-serif;
+   	transform: scaleX(0.91932);
+   	vertical-align: .1rem;
+   	margin-left: .2rem;
+   	font-weight:bold;
+   }
+   .second{
+   	font-size: .6rem;
+   	color: #fff;
+   	font-family: sans-serif;
+   	transform: scaleX(0.91932);
+   	vertical-align: .1rem;
+   	margin-left: -.2rem;
+   	font-weight: bold;
+   }
    .time{
    	font-size: 0.3rem;
    	text-align: right;
+    margin-top: .3rem;
+   }
+   .time #show{
+   	 font-weight: 100;
+   }
+   .name1{
+   	  	margin-top: 1.5rem;
+   }
+   .name img{
+   	vertical-align: -.2rem;
+
    }
 
    .name{
    	font-size: .4rem;
    	vertical-align: -0.05rem;
+   	margin-left: 1.5rem;
    }
-
 	.board {
 		margin-top:1em;
 		margin-bottom:1em;
@@ -61,7 +90,9 @@ html,body {
 		background-color:lightgrey;
 	}
 
-
+    #signature img{
+    	opacity: 0;
+    }
 	/* Drawing the 'gripper' for touch-enabled devices */ 
 	html.touch #content {
 		float:left;
@@ -90,6 +121,15 @@ html,body {
   }
 .inputTodo{
 	font-size: .3rem;
+	width: 5.7rem;
+	border-top: 0px;
+	border-left: 0px;
+	border-bottom: 2px solid black;
+}
+.line{
+	width:3rem;
+	height: 3rem;
+	border-bottom: 1px solid;
 }
 .name{
 	display: inline-block;
@@ -98,4 +138,11 @@ html,body {
 .three{
 	display: inline-block;
 	margin-left: .3rem;
+}
+.sign{
+	margin-left: 1.5rem;
+}
+canvas .jSignature{
+	width: 3rem;
+	height: 3rem;
 }
