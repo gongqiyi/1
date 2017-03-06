@@ -88,10 +88,10 @@ html,body {
 	#signature {
 		border: 1px dotted black;
 		background-color:#fff;
-		margin-top: -1.6rem;
-		margin-left: 2.2rem;
-		width: 60%;
-		height: 3rem;
+		margin-top: -1rem;
+		margin-left: 2.6rem;
+		width: 5.7rem;
+		height: 5rem;
 	}
 
     #signature img{
@@ -145,4 +145,8 @@ html,body {
 }
 .sign{
 	margin-left: 1.5rem;
+}
+footer{
+	font-size: .2rem;
+	text-align: center;
 }

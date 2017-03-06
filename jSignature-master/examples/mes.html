@@ -47,9 +47,8 @@ var timeID=setTimeout(showLeftTime,1000);
 <div class="header"><span class="first">W</span><span class="second"> ELCOME</span></h1></div>
 <div class="time"><label id="show">显示时间的位置</label></div>
 <div class="log"><img src="1.jpg" style="width: 26.4%;height: 12%;margin-left: 35vw;"></div>
-<header>
-    
-      <form >
+    <header>
+     <form >
       <div class="name name1"><img src="2.png"></div><span class="line"></span><input type="text" class="inputTodo" name="name">
       <input type="reset" name="" class="reset" style="font-size: .2rem">
       <br>
@@ -65,12 +64,13 @@ var timeID=setTimeout(showLeftTime,1000);
     <div></div>
     <div id="signature"></div></div>
   <div id="tools">
-    <button class="post" style="font-size: .2rem">提交</button>
+    <button class="post" style="font-size: .2rem;margin-left: 2.6rem;">提交</button>
   </div>
   <div><p></p><div id="displayarea"></div></div>
 </div>
 <div id="scrollgrabber"></div>
 </div>
+<footer>Copyright(C)SOT 2014-2017 All Rights Reserved.</footer>
 <script src="../libs/jquery.js"></script>
 <script>
 /*  @preserve
@@ -119,7 +119,7 @@ http://dojofoundation.org/license for more information.
 <script src="../src/jSignature.js"></script>
 <script src="../src/plugins/jSignature.CompressorBase30.js"></script>
 <script src="../src/plugins/jSignature.CompressorSVG.js"></script>
-<script src="../src/plugins/jSignature.UndoButton.js"></script> 
+<!-- <script src="../src/plugins/jSignature.UndoButton.js"></script>  -->
 <script src="../src/plugins/signhere/jSignature.SignHere.js"></script> 
 <script>
 
@@ -127,7 +127,7 @@ http://dojofoundation.org/license for more information.
 $(document).ready(function() {
 	
 	// This is the part where jSignature is initialized.
-	var $sigdiv = $("#signature").jSignature({'UndoButton':true,height:360,width:1300})
+	var $sigdiv = $("#signature").jSignature({'UndoButton':true,height:"6rem",width:"6rem"})
 	
 	// All the code below is just code driving the demo. 
 	, $tools = $('#tools')
@@ -165,7 +165,7 @@ $(document).ready(function() {
 	}).appendTo($tools)
 
 	
-	$('<input type="button" value="Reset" style="font-size: .2rem"> ').bind('click', function(e){
+	$('<input type="button" value="Reset" style="font-size: .15rem;margin-left:2.5rem"> ').bind('click', function(e){
 		$sigdiv.jSignature('reset')
 	}).appendTo($tools)
 	
