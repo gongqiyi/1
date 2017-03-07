@@ -89,8 +89,8 @@ html,body {
 		border: 0px dotted black;
 		background-color:#fff;
 		margin-top: -1.3rem;
-		margin-left: 2.3rem;
-		width:9.2rem;
+		margin-left: 2rem;
+		width:9.4rem;
 		height: 6rem;
 	}
 
@@ -141,7 +141,8 @@ html,body {
 	margin-left: .3rem;
 }
 .sign{
-	margin-left: .97rem;
+	margin-left: .93rem;
+	margin-top: 1rem;
 }
 footer{
 	font-size: .2rem;
@@ -167,7 +168,8 @@ display: none;
 }
 
 .post{
-	margin-left: 6.6rem;
+	margin-left: 5.6rem;
+	vertical-align: 1rem;
 }
 section{
 	display: relative
@@ -182,7 +184,7 @@ section{
 	border-top: 1px dotted;
 	margin-left: 2rem;
 	position: absolute;
-	top: 7.5rem;
+	top: 8rem;
 }
 .right1{
 	width: .5rem;
@@ -193,8 +195,8 @@ section{
 	border-left: 0px ;
 	border-top: 1px dotted ;
 	position: absolute;
-	right: -.5rem;
-	top: 7.5rem;
+	right: .4rem;
+	top: 8rem;
 }
 .left2{
 	width: .5rem;
@@ -216,5 +218,5 @@ section{
 	border-right: 1px dotted;
 	border-bottom: 1px dotted;
 	top: 13rem;
-	right: -.5rem;
+	right: .4rem;
 }
