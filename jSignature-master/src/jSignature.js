@@ -964,7 +964,7 @@ jSignatureClass.prototype.resetCanvas = function(data){
 	ctx.shadowOffsetX = 0
 	ctx.shadowOffsetY = 0
 	var lineoffset = Math.round( ch / 5 )
-	basicLine(ctx, lineoffset * 1.5, ch - lineoffset, cw - (lineoffset * 1.5), ch - lineoffset)
+	// basicLine(ctx, lineoffset * 1.5, ch - lineoffset, cw - (lineoffset * 1.5), ch - lineoffset)
 	ctx.strokeStyle = settings.color
 
 	if (!isCanvasEmulator){

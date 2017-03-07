@@ -46,7 +46,7 @@ var timeID=setTimeout(showLeftTime,1000);
 <body onload="showLeftTime()">
 <div class="header"><span class="first">W</span><span class="second"> ELCOME</span></h1></div>
 <div class="time"><label id="show">显示时间的位置</label></div>
-<div class="log"><img src="1.jpg" style="width: 26.4%;height: 12%;margin-left:24%;"></div>
+<div class="log"><img src="1.jpg" style="width: 26.4%;height: 12%;margin-left:37%;"></div>
     <header>
      <form >
       <div class="name name1"><img src="2.png"></div></span><input type="text" class="inputTodo" name="name">
@@ -59,7 +59,13 @@ var timeID=setTimeout(showLeftTime,1000);
        <br>
       </form>
     </header>
-  <img src="4.png" class="sign">    
+    <section>
+  <img src="4.png" class="sign">
+  <div class="left1"></div>
+  <div class="right1"></div>
+  <div class="left2"></div>
+  <div class="right2"></div>
+  </section>
 <div class="board">
 <div id="content">
   <div id="signatureparent">
@@ -130,7 +136,7 @@ http://dojofoundation.org/license for more information.
 $(document).ready(function() {
 	
 	// This is the part where jSignature is initialized.
-	var $sigdiv = $("#signature").jSignature({'UndoButton':true,height:"6rem",width:"9.5rem",border:0})
+	var $sigdiv = $("#signature").jSignature({'UndoButton':true,height:"6rem",width:"9.5rem"})
 	
 	// All the code below is just code driving the demo. 
 	, $tools = $('#tools')
@@ -168,7 +174,7 @@ $(document).ready(function() {
 	}).appendTo($tools)
 
 	
-	$('<input type="button" value="Reset" name="re" calss="re" style="font-size: .3rem;position:absolute;left:5.5rem;"> ').bind('click', function(e){
+	$('<input type="button" value="Reset" name="re" calss="re" style="font-size: .3rem;position:absolute;left:108vw;top:-5rem;"> ').bind('click', function(e){
 		$sigdiv.jSignature('reset')
 	}).appendTo($tools)
 	
