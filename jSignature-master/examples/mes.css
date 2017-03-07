@@ -168,13 +168,16 @@ footer{
 }
 .post{
 	position: absolute;
-	left: 6rem;
+	left: 5.5rem;
 	top: .2rem;
 }
 #scrollgrabber{
 display: none;
 }
 #tools input{
-	float: right;
-	margin-right: 2rem；
+	position: absolute;
+	right: 0rem;
+}
+footer{
+	margin-top: 2rem;
 }
