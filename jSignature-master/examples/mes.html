@@ -50,12 +50,12 @@ var timeID=setTimeout(showLeftTime,1000);
     <header>
      <form >
       <div class="name name1"><img src="2.png"></div></span><input type="text" class="inputTodo" name="name">
-      <input type="reset" name="" class="reset reset1" style="font-size: .3rem">
+      <input type="reset" name="" value="Reset" class="reset reset1" style="font-size: .3rem">
       <br>
       </form>
       <form>
      <div class="name"><img src="3.png"></div><input type="text" class="inputTodo two" name="email" >
-      <input type="reset" name="" class="reset reset2" style="font-size: .3rem">
+      <input type="reset" name="" value="Reset" class="reset reset2" style="font-size: .3rem">
        <br>
       </form>
     </header>
@@ -66,7 +66,7 @@ var timeID=setTimeout(showLeftTime,1000);
     <div></div>
     <div id="signature"></div></div>
   <div id="tools">
-    <button class="post" style="font-size: .3rem;">提交</button>
+    <button class="post" style="font-size: .3rem;">Login</button>
   </div>
   <div><p></p><div id="displayarea"></div></div>
 </div>
@@ -263,7 +263,7 @@ $(document).ready(function() {
     $.post("www.baidu.com",{"name":name,"email":email,"time":time,"image":canvasData})
      document.querySelector("input[name='name']").value = ""
      document.querySelector("input[name='email']").value = ""
-  alert('你已经成功提交！')
+  alert('success！')
    })
 
 </script>
