@@ -168,7 +168,7 @@ $(document).ready(function() {
 	}).appendTo($tools)
 
 	
-	$('<input type="button" value="Reset" calss="re" style="font-size: .3rem;"> ').bind('click', function(e){
+	$('<input type="button" value="Reset" name="re" calss="re" style="font-size: .3rem;"> ').bind('click', function(e){
 		$sigdiv.jSignature('reset')
 	}).appendTo($tools)
 	
@@ -259,11 +259,12 @@ $(document).ready(function() {
       var result = {'name':name,'email':email,"time":time,'image':canvasData}
       localStorage.setItem("data",JSON.stringify(result))
     }
-    document.querySelector("input[value='Reset']").click()
-    $.post("www.baidu.com",{"name":name,"email":email,"time":time,"image":canvasData})
+    document.querySelector("input[name='re']").click()
+    $.post("",{"name":name,"email":email,"time":time,"image":canvasData})
      document.querySelector("input[name='name']").value = ""
      document.querySelector("input[name='email']").value = ""
-  alert('success！')
+
+     alert('success！')
    })
 
 </script>
