@@ -151,6 +151,7 @@ html,body {
 footer{
 	font-size: .2rem;
 	text-align: center;
+	margin-top: 1rem;
 }
 .reset1{
 	position: absolute;
@@ -159,7 +160,7 @@ footer{
 }
 .reset2{
 	position: absolute;
-	top: 7.7rem;
+	top: 6.7rem;
 	left: 90vw;
 }
 #tools{
@@ -174,6 +175,6 @@ footer{
 display: none;
 }
 #tools input{
-	position: absolute;
-	left: 90vw;
+	float: right;
+	margin-right: 4rem；
 }
