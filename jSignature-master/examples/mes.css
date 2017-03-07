@@ -90,8 +90,8 @@ html,body {
 		background-color:#fff;
 		margin-top: -1.3rem;
 		margin-left: 2.5rem;
-		width: 7.9rem;
-		height: 5rem;
+		width:9.5rem;
+		height: 6rem;
 	}
 
     #signature img{
@@ -156,27 +156,21 @@ footer{
 }
 .reset1{
 	position: absolute;
-	top: 5.3rem;
+	top: 4.8rem;
 	left: 90vw;
 }
 .reset2{
 	position: absolute;
-	top: 6.7rem;
+	top: 6.2rem;
 	left: 90vw;
 }
 #tools{
 	position: relative;
 }
-.post{
-	position: absolute;
-	left: 6rem;
-	top: .2rem;
-}
 #scrollgrabber{
 display: none;
 }
-#tools input{
+#tools .post{
 	position: absolute;
-
-	left: 90vw;
+	left: 7rem;
 }
