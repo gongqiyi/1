@@ -167,7 +167,7 @@ footer{
 }
 .post{
 	position: absolute;
-	left: 6rem;
+	left: 8rem;
 	top: .2rem;
 }
 #scrollgrabber{
@@ -175,5 +175,6 @@ display: none;
 }
 #tools input{
 	position: absolute;
+	bottom: 5rem;
 	left: 90vw;
 }
