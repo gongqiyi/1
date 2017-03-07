@@ -177,7 +177,7 @@ section{
 .left1{
 	width: .5rem;
 	height: .5rem;
-	
+	margin-top: 1rem;
 	border-right: 0px;
 	border-bottom: 0px;
 	border-left: 1px dotted;
@@ -189,7 +189,7 @@ section{
 .right1{
 	width: .5rem;
 	height: .5rem;
-	
+	margin-top: 1rem;
 	border-right: 1px dotted;
 	border-bottom: 0px;
 	border-left: 0px ;
@@ -197,11 +197,11 @@ section{
 	position: absolute;
 	right: .4rem;
 	top: 7.75rem;
+	margin-right: 1.7rem;
 }
 .left2{
 	width: .5rem;
 	height: .5rem;
-	margin-right: 1rem;
 	border-top: 0px;
 	border-right:0px;
 	border-left: 1px dotted;
@@ -213,10 +213,10 @@ section{
 .right2{
 	width: .5rem;
 	height: .5rem;
-	margin-right: 1rem;
 	position: absolute;
 	border-right: 1px dotted;
 	border-bottom: 1px dotted;
 	top: 13.2rem;
 	right: .4rem;
+	margin-right: 1.7rem;
 }
