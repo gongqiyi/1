@@ -11,33 +11,33 @@ html,body {
    
   .header{
 		background-color: #00AFEF;
-			width: 100%;
-			height: 10%；
-			position:relative;
+			width: 100vw;
+			height:.7rem;
 		}
    .first{
-   	font-size: .8rem;
+   	font-size: .5rem;
    	color: #fff;
    	font-family: sans-serif;
    	transform: scaleX(0.91932);
-   	vertical-align: .1rem;
-   	margin-left: .2rem;
+   	vertical-align:.4rem ;
+   	margin-left:.3rem ;
    	font-weight:bold;
    }
    .second{
-   	font-size: .6rem;
+   	font-size: .3rem;
    	color: #fff;
    	font-family: sans-serif;
-   	transform: scaleX(0.91932);
-   	vertical-align: .1rem;
-   	margin-left: -.2rem;
+   	vertical-align:.4rem; ;
+   	margin-left:-.1rem;
    	font-weight: bold;
    }
    .time{
    	font-size: 0.3rem;
-   	text-align: right;
-   	margin-right: .8rem;
-    margin-top: .3rem;
+    position: absolute;
+    right: 2.7rem;
+   }
+   .log img{
+   	margin-top: .4rem;
    }
    .time #show{
    	 font-weight: 100;
@@ -52,8 +52,7 @@ html,body {
 
    .name{
    	font-size: .4rem;
-   	vertical-align: -0.05rem;
-   	margin-left: 1rem;
+   	margin-left: .3rem;
    }
 	.board {
 		margin-top:1em;
@@ -89,7 +88,7 @@ html,body {
 		border: 1px dotted black;
 		background-color:#fff;
 		margin-top: -1.3rem;
-		margin-left: 1.85rem;
+		margin-left: 1.35rem;
 		width:9.5rem;
 		height: 6rem;
 	}
@@ -125,7 +124,7 @@ html,body {
   }
 .inputTodo{
 	font-size: .3rem;
-	width:  8.3rem;
+	width:  5.3rem;
 	border-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
@@ -141,7 +140,7 @@ html,body {
 	margin-left: .3rem;
 }
 .sign{
-	margin-left: .95rem;
+	margin-left: .23rem;
 	margin-top: 1rem;
 }
 footer{
@@ -153,12 +152,13 @@ footer{
 .reset1{
 	position: absolute;
 	top: 5rem;
-	left: 108vw;
+	right: 2.5rem;
+
 }
 .reset2{
 	position: absolute;
 	top: 6.2rem;
-	left: 108vw;
+	right: 2.5rem;
 }
 #tools{
 	position: relative;
