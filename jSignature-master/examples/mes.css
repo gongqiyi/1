@@ -86,7 +86,7 @@ html,body {
 	*/
 	/*This is the div within which the signature canvas is fitted*/
 	#signature {
-		border: 1px dotted black;
+		border: 0px dotted black;
 		background-color:#fff;
 		margin-top: -1.3rem;
 		margin-left: 2rem;
@@ -152,12 +152,12 @@ footer{
 }
 .reset1{
 	position: absolute;
-	top: 5.3rem;
+	top: 5rem;
 	left: 108vw;
 }
 .reset2{
 	position: absolute;
-	top: 6.7rem;
+	top: 6.4rem;
 	left: 108vw;
 }
 #tools{
@@ -168,7 +168,7 @@ display: none;
 }
 
 .post{
-	margin-left: 5.6rem;
+	margin-left: 5.9rem;
 	vertical-align: 1rem;
 }
 section{
