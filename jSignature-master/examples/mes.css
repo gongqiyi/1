@@ -11,33 +11,33 @@ html,body {
    
   .header{
 		background-color: #00AFEF;
-			width: 100vw;
-			height:.7rem;
+			width: 100%;
+			height: 10%；
+			position:relative;
 		}
    .first{
-   	font-size: .5rem;
+   	font-size: .8rem;
    	color: #fff;
    	font-family: sans-serif;
    	transform: scaleX(0.91932);
-   	vertical-align:.4rem ;
-   	margin-left:.3rem ;
+   	vertical-align: .1rem;
+   	margin-left: .2rem;
    	font-weight:bold;
    }
    .second{
-   	font-size: .3rem;
+   	font-size: .6rem;
    	color: #fff;
    	font-family: sans-serif;
-   	vertical-align:.4rem; ;
-   	margin-left:-.1rem;
+   	transform: scaleX(0.91932);
+   	vertical-align: .1rem;
+   	margin-left: -.2rem;
    	font-weight: bold;
    }
    .time{
    	font-size: 0.3rem;
-    position: absolute;
-    right: 2.7rem;
-   }
-   .log img{
-   	margin-top: .4rem;
+   	text-align: right;
+   	margin-right: .8rem;
+    margin-top: .3rem;
    }
    .time #show{
    	 font-weight: 100;
@@ -52,7 +52,8 @@ html,body {
 
    .name{
    	font-size: .4rem;
-   	margin-left: .3rem;
+   	vertical-align: -0.05rem;
+   	margin-left: 1rem;
    }
 	.board {
 		margin-top:1em;
@@ -88,7 +89,7 @@ html,body {
 		border: 1px dotted black;
 		background-color:#fff;
 		margin-top: -1.3rem;
-		margin-left: 1.35rem;
+		margin-left: 2.5rem;
 		width:9.5rem;
 		height: 6rem;
 	}
@@ -124,12 +125,17 @@ html,body {
   }
 .inputTodo{
 	font-size: .3rem;
-	width:  5.3rem;
+	width: 7.3rem;
 	border-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
 	border-radius: 0px;
 	border-bottom: 2px solid black;
+}
+.line{
+	width:3rem;
+	height: 3rem;
+	border-bottom: 1px solid;
 }
 .name{
 	display: inline-block;
@@ -140,8 +146,7 @@ html,body {
 	margin-left: .3rem;
 }
 .sign{
-	margin-left: .23rem;
-	margin-top: 1rem;
+	margin-left: 1rem;
 }
 footer{
 	font-size: .2rem;
@@ -151,14 +156,13 @@ footer{
 }
 .reset1{
 	position: absolute;
-	top: 5rem;
-	right: 2.5rem;
-
+	top: 5.3rem;
+	left: 90vw;
 }
 .reset2{
 	position: absolute;
-	top: 6.2rem;
-	right: 2.5rem;
+	top: 6.7rem;
+	left: 90vw;
 }
 #tools{
 	position: relative;
@@ -166,7 +170,6 @@ footer{
 #scrollgrabber{
 display: none;
 }
-#tools .post{
+#tools input{
 	position: absolute;
-	left: 7rem;
 }
