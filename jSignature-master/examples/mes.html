@@ -67,12 +67,12 @@ var timeID=setTimeout(showLeftTime,1000);
     <div id="signature"></div></div>
   <div id="tools">
     <button class="post" style="font-size: .3rem;">提交</button>
-    <br><br>
   </div>
   <div><p></p><div id="displayarea"></div></div>
 </div>
 <div id="scrollgrabber"></div>
 </div>
+<br>
 <footer>Copyright(C)SOT 2014-2017 All Rights Reserved.</footer>
 <script src="../libs/jquery.js"></script>
 <script>
@@ -168,7 +168,7 @@ $(document).ready(function() {
 	}).appendTo($tools)
 
 	
-	$('<input type="button" value="还原" calss="re" style="font-size: .3rem;"> ').bind('click', function(e){
+	$('<input type="button" value="Reset" calss="re" style="font-size: .3rem;"> ').bind('click', function(e){
 		$sigdiv.jSignature('reset')
 	}).appendTo($tools)
 	
