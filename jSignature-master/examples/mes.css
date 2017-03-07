@@ -201,7 +201,7 @@ section{
 .left2{
 	width: .5rem;
 	height: .5rem;
-	
+	margin-right: 1rem;
 	border-top: 0px;
 	border-right:0px;
 	border-left: 1px dotted;
@@ -213,7 +213,7 @@ section{
 .right2{
 	width: .5rem;
 	height: .5rem;
-	
+	margin-right: 1rem;
 	position: absolute;
 	border-right: 1px dotted;
 	border-bottom: 1px dotted;
