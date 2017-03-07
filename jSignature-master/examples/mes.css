@@ -86,7 +86,7 @@ html,body {
 	*/
 	/*This is the div within which the signature canvas is fitted*/
 	#signature {
-		border: 0px dotted black;
+		border: 1px dotted black;
 		background-color:#fff;
 		margin-top: -1.3rem;
 		margin-left: 2rem;
@@ -184,7 +184,7 @@ section{
 	border-top: 1px dotted;
 	margin-left: 2rem;
 	position: absolute;
-	top: 8rem;
+	top: 7.7rem;
 }
 .right1{
 	width: .5rem;
@@ -196,7 +196,7 @@ section{
 	border-top: 1px dotted ;
 	position: absolute;
 	right: .4rem;
-	top: 8rem;
+	top: 7.7rem;
 }
 .left2{
 	width: .5rem;
