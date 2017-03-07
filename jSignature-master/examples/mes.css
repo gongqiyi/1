@@ -176,8 +176,8 @@ display: none;
 }
 #tools input{
 	position: absolute;
-	right: 0rem;
+	left: 90vw;
 }
 footer{
-	margin-top: 2rem;
+	margin-top: 5rem;
 }
