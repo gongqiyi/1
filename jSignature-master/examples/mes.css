@@ -159,7 +159,7 @@ footer{
 }
 .reset2{
 	position: absolute;
-	top: 6.7rem;
+	top: 7.7rem;
 	left: 90vw;
 }
 #tools{
@@ -175,6 +175,5 @@ display: none;
 }
 #tools input{
 	position: absolute;
-	top: 5.3rem;
 	left: 90vw;
 }
