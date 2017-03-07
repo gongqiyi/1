@@ -176,6 +176,6 @@ display: none;
 }
 #tools input{
 	position: absolute;
-	top: -.7rem;
+	bottom:1rem;
 	left: 90vw;
 }
