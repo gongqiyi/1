@@ -175,6 +175,7 @@ footer{
 display: none;
 }
 #tools input{
-	float: right;
-	margin-right: 2rem;
+	position: absolute;
+	top: 5.3rem;
+	left: 90vw;
 }
