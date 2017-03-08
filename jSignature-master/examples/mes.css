@@ -169,7 +169,7 @@ display: none;
 
 .post{
 	margin-left: 5.9rem;
-	vertical-align: 1rem;
+	margin-top: -.5rem;
 }
 section{
 	display: relative
@@ -197,7 +197,7 @@ section{
 	position: absolute;
 	right: .4rem;
 	top: 7.75rem;
-	margin-right: 2.7rem;
+	margin-right: 2.9rem;
 }
 .left2{
 	width: .5rem;
@@ -218,5 +218,5 @@ section{
 	border-bottom: 1px dotted;
 	top: 14rem;
 	right: .4rem;
-	margin-right: 2.7rem;
+	margin-right: 2.9rem;
 }
