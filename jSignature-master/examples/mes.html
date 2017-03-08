@@ -46,7 +46,7 @@ var timeID=setTimeout(showLeftTime,1000);
 <body onload="showLeftTime()">
 <div class="header"><span class="first">W</span><span class="second"> ELCOME</span></h1></div>
 <div class="time"><label id="show">显示时间的位置</label></div>
-<div class="log"><img src="1.jpg" style="width: 26.4%;height: 12%;margin-left:27%;"></div>
+<div class="log"><img src="1.jpg" style="width: 26.4%;height: 12%;margin-left:37%;"></div>
     <header>
      <form >
       <div class="name name1"><img src="2.png"></div></span><input type="text" class="inputTodo" name="name">
@@ -88,9 +88,6 @@ Loosely based on Dojo publish/subscribe API, limited in scope. Rewritten blindly
 Original is (c) Dojo Foundation 2004-2010. Released under either AFL or new BSD, see:
 http://dojofoundation.org/license for more information.
 */
-document.body.addEventListener('touchmove', function (event) {
-    event.preventDefault();
-}, false);
 (function($) {
 	var topics = {};
 	$.publish = function(topic, args) {
@@ -134,7 +131,9 @@ document.body.addEventListener('touchmove', function (event) {
 <!-- <script src="../src/plugins/jSignature.UndoButton.js"></script>  -->
 <script src="../src/plugins/signhere/jSignature.SignHere.js"></script> 
 <script>
-
+document.body.addEventListener('touchmove', function (event) {
+    event.preventDefault();
+}, false);
 
 $(document).ready(function() {
 	
