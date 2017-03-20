@@ -5,7 +5,7 @@
 <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
    Remove this if you use the .htaccess -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <!-- <meta name="viewport" content="initial-scale=1.0, target-densitydpi=device-dpi" /> --><!-- this is for mobile (Android) Chrome -->
 <meta name="viewport" content="initial-scale=1.0, width=device-height"><!--  mobile Safari, FireFox, Opera Mobile  -->
@@ -48,7 +48,7 @@ var timeID=setTimeout(showLeftTime,1000);
 <body onload="showLeftTime()">
 <div class="header"><span class="first">W</span><span class="second"> ELCOME</span></h1></div>
 <div class="time"><label id="show">显示时间的位置</label></div>
-<div class="log"><img src="1.jpg" style="width: 26.4%;height: 12%;margin-left:37%;"></div>
+<div class="log"><img src="1.jpg" style="width: 220px;height: 110px;margin-left:300px;"></div>
     <header>
      <form >
       <div class="name name1"><img src="2.png"></div></span><input type="text" class="inputTodo" name="name">
@@ -74,7 +74,7 @@ var timeID=setTimeout(showLeftTime,1000);
     <div></div>
     <div id="signature"></div></div>
   <div id="tools">
-    <input type="button" class="post" value="OK" style="font-size: .6rem;"></input>
+    <input type="button" class="post" value="OK" style="font-size: 20px;"></input>
   </div>
   <div><p></p><div id="displayarea"></div></div>
 </div>
@@ -140,7 +140,7 @@ document.body.addEventListener('touchmove', function (event) {
 $(document).ready(function() {
 	
 	// This is the part where jSignature is initialized.
-	var $sigdiv = $("#signature").jSignature({'UndoButton':true,height:"10rem",width:"10.5rem"})
+	var $sigdiv = $("#signature").jSignature({'UndoButton':true,height:"400px",width:"420px"})
 	
 	// All the code below is just code driving the demo. 
 	, $tools = $('#tools')
@@ -178,7 +178,7 @@ $(document).ready(function() {
 	}).appendTo($tools)
 
 	
-	$('<input type="button" value="Reset" name="re" calss="re" style="font-size: .3rem;position:absolute;left:108vw;top:-6.3rem;"> ').bind('click', function(e){
+	$('<input type="button" value="Reset" name="re" calss="re" style="font-size: .3rem;position:absolute;left:625px;top:-410px;"> ').bind('click', function(e){
 		$sigdiv.jSignature('reset')
 	}).appendTo($tools)
 	
@@ -273,7 +273,7 @@ $(document).ready(function() {
       }
     }
     document.querySelector("input[name='re']").click()
-    $.post("http://192.168.3.71:8080/EHR/cusInformation.action?",{"name":name,"email":email,/*"time":time,*/"image":canvasData})
+    $.post("http://192.168.3.71:8080/EHR/cusInformation.action?",{"name":name,"email":email,"time":time,"image":canvasData})
     
      document.querySelector("input[name='name']").value = ""
      document.querySelector("input[name='email']").value = ""
