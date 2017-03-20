@@ -5,12 +5,13 @@
 <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
    Remove this if you use the .htaccess -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
 <!-- <meta name="viewport" content="initial-scale=1.0, target-densitydpi=device-dpi" /> --><!-- this is for mobile (Android) Chrome -->
 <meta name="viewport" content="initial-scale=1.0, width=device-height"><!--  mobile Safari, FireFox, Opera Mobile  -->
 <link rel="stylesheet" type="text/css" href="reset.css">
 <link rel="stylesheet" type="text/css" href="mes.css">
 <link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.12.0.css">
-<script src="storage.js"></script>
+<script src="store.js"></script>
 <script src="http://code.jquery.com/qunit/qunit-1.12.0.js"></script>
 <script type="text/javascript" src="jquery.js"></script>
 <script src="../libs/modernizr.js"></script>
@@ -265,16 +266,20 @@ $(document).ready(function() {
       return
     }else{
       var result = {'name':name,'email':email,"time":time,'image':canvasData}
+     
+      for(var i=0; i<10; i++){
       localStorage.setItem("data",JSON.stringify(result))
+      }
     }
     document.querySelector("input[name='re']").click()
     $.post("http://192.168.3.71:8080/EHR/cusInformation.action?",{"name":name,"email":email,"time":time,"image":canvasData})
+    
      document.querySelector("input[name='name']").value = ""
      document.querySelector("input[name='email']").value = ""
-
      alert('success！')
+   
    })
-
+  
 </script>
 </body>
 </html>
