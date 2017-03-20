@@ -47,16 +47,16 @@ var timeID=setTimeout(showLeftTime,1000);
 <body onload="showLeftTime()">
 <div class="header"><span class="first">W</span><span class="second"> ELCOME</span></h1></div>
 <div class="time"><label id="show">显示时间的位置</label></div>
-<div class="log"><img src="1.jpg" style="width: 220px;height: 110px;margin-left:300px;"></div>
+<div class="log"><img src="1.jpg" style="width: 330px;height: 165px;margin-left:400px;"></div>
     <header>
      <form >
       <div class="name name1"><img src="2.png"></div></span><input type="text" class="inputTodo" name="name">
-      <input type="reset" name="" value="Reset" class="reset reset1" style="font-size: .3rem">
+      <input type="reset" name="" value="Reset" class="reset reset1">
       <br>
       </form>
       <form>
      <div class="name"><img src="3.png"></div><input type="text" class="inputTodo two" name="email" >
-      <input type="reset" name="" value="Reset" class="reset reset2" style="font-size: .3rem">
+      <input type="reset" name="" value="Reset" class="reset reset2">
        <br>
       </form>
     </header>
@@ -73,7 +73,7 @@ var timeID=setTimeout(showLeftTime,1000);
     <div></div>
     <div id="signature"></div></div>
   <div id="tools">
-    <input type="button" class="post" value="OK" style="font-size: 20px;"></input>
+    <input type="button" class="post" value="OK" style="font-size: 50px;"></input>
   </div>
   <div><p></p><div id="displayarea"></div></div>
 </div>
@@ -137,7 +137,7 @@ document.body.addEventListener('touchmove', function (event) {
 $(document).ready(function() {
 	
 	// This is the part where jSignature is initialized.
-	var $sigdiv = $("#signature").jSignature({'UndoButton':true,height:"400px",width:"420px"})
+	var $sigdiv = $("#signature").jSignature({'UndoButton':true,height:"400px",width:"620px"})
 	
 	// All the code below is just code driving the demo. 
 	, $tools = $('#tools')
@@ -174,7 +174,7 @@ $(document).ready(function() {
 		}
 	}).appendTo($tools)
 	
-	$('<input type="button" value="Reset" name="re" calss="re" style="font-size: .3rem;position:absolute;left:625px;top:-410px;"> ').bind('click', function(e){
+	$('<input type="button" value="Reset" name="re" calss="re" style="font-size: 30px;position:absolute;left:825px;top:-410px;"> ').bind('click', function(e){
 		$sigdiv.jSignature('reset')
 	}).appendTo($tools)
 	

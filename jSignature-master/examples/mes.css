@@ -94,7 +94,7 @@ html,body {
 		background-color:#fff;
 		margin-left: 190px;
 		margin-top: -45px;
-		width:420px;
+		width:620px;
 		height: 400px;
 	}
 
@@ -157,13 +157,14 @@ footer{
 }
 .reset1{
 	position: absolute;
-	top: 265px;
+	top: 300px;
 	font-size: 30px;
 	
 }
 .reset2{
 	position: absolute;
-	font-size: 20px;
+	font-size: 30px;
+	top: 400px;
 	
 }
 #tools{
@@ -174,8 +175,9 @@ display: none;
 }
 
 .post{
-	margin-left: 380px;
+	margin-left: 480px;
 	margin-top:20px ;
+	font-size: 50px;
 }
 section{
 	display: relative
@@ -187,7 +189,7 @@ section{
 	border-top: 1px dotted;
 	margin-left:190px;
 	position: absolute;
-	top: 500px;
+	top: 560px;
 
 
 	
@@ -199,8 +201,8 @@ section{
 	    border-top: 1px dotted;
 	    margin-left:190px;
 	    position: absolute;
-	    right: 410px;
-	    top: 500px;
+	    right: 210px;
+	    top: 560px;
 
 	
 
@@ -212,7 +214,7 @@ section{
 	border-bottom: 1px dotted;
 	margin-left:190px;
 	position: absolute;
-	top: 900px;
+	top: 950px;
 
 
 }
@@ -223,8 +225,6 @@ section{
 	border-bottom: 1px dotted;
 	margin-left:190px;
 	position: absolute;
-	right: 410px;
-    top: 900px;
+	right: 210px;
+    top: 950px;
 }
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
