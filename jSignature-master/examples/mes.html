@@ -23,7 +23,6 @@
   #tools span,#tools select,#tools textarea{
     display: none;
   }
-
 </style>
 <script language="javascript" type="text/javascript">
 <!--
@@ -125,7 +124,6 @@ http://dojofoundation.org/license for more information.
 	    }
 	};
 })(jQuery);
-
 </script>
 <script src="../src/jSignature.js"></script>
 <script src="../src/plugins/jSignature.CompressorBase30.js"></script>
@@ -136,7 +134,6 @@ http://dojofoundation.org/license for more information.
 document.body.addEventListener('touchmove', function (event) {
     event.preventDefault();
 }, false);
-
 $(document).ready(function() {
 	
 	// This is the part where jSignature is initialized.
@@ -176,7 +173,6 @@ $(document).ready(function() {
 			}
 		}
 	}).appendTo($tools)
-
 	
 	$('<input type="button" value="Reset" name="re" calss="re" style="font-size: .3rem;position:absolute;left:625px;top:-410px;"> ').bind('click', function(e){
 		$sigdiv.jSignature('reset')
@@ -187,15 +183,12 @@ $(document).ready(function() {
 	$.subscribe(pubsubprefix + 'formatchanged', function(){
 		$extraarea.html('')
 	})
-
 	$.subscribe(pubsubprefix + 'image/svg+xml', function(data) {
-
 		try{
 			var i = new Image()
 			i.src = 'data:' + data[0] + ';base64,' + btoa( data[1] )
 			$(i).appendTo($extraarea)
 		} catch (ex) {
-
 		}
 		
 		var message = [
@@ -205,7 +198,6 @@ $(document).ready(function() {
            ]
 		$( "<div>" + message.join("<br/>") + "</div>" ).appendTo( $extraarea )
 	});
-
 	$.subscribe(pubsubprefix + 'image/svg+xml;base64', function(data) {
 		var i = new Image()
 		i.src = 'data:' + data[0] + ',' + data[1]
@@ -230,17 +222,14 @@ $(document).ready(function() {
 	$.subscribe(pubsubprefix + 'image/jsignature;base30', function(data) {
 		$('<span><b>This is a vector format not natively render-able by browsers. Format is a compressed "movement coordinates arrays" structure tuned for use server-side. The bonus of this format is its tiny storage footprint and ease of deriving rendering instructions in programmatic, iterative manner.</b></span>').appendTo($extraarea)
 	});
-
 	if (Modernizr.touch){
 		$('#scrollgrabber').height($('#content').height())		
 	}
 	
 })
-
 </script>
 <script>
   
-
   $('#page-content')
     .on('keypress', '.inputTodo', function(event) {
       if (event.keyCode == 13) {

@@ -1,3 +1,4 @@
+
 html,body {
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ html,body {
    
   .header{
 		background-color: #00AFEF;
-			width: 100vw;
+			width: 100%;
 			height: 65px；
 			position:relative;
 		}
@@ -35,7 +36,7 @@ html,body {
    .time{
    
    	text-align: right;
-   margin-right: 270px;
+ 
    }
    .time #show{
    	 font-weight: 100;
@@ -128,7 +129,7 @@ html,body {
   }
 .inputTodo{
 	font-size: .3rem;
-	width: 400px;
+	width: 600px;
 	border-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
@@ -157,10 +158,12 @@ footer{
 .reset1{
 	position: absolute;
 	top: 265px;
+	font-size: 30px;
 	
 }
 .reset2{
 	position: absolute;
+	font-size: 20px;
 	
 }
 #tools{
@@ -223,3 +226,5 @@ section{
 	right: 410px;
     top: 900px;
 }
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
