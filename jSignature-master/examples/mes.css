@@ -92,9 +92,9 @@ html,body {
 	#signature {
 		border: 0px dotted black;
 		background-color:#fff;
-		margin-left: 190px;
+		margin-left: 205px;
 		margin-top: -45px;
-		width:620px;
+		width:630px;
 		height: 400px;
 	}
 
@@ -128,8 +128,9 @@ html,body {
     color: red;
   }
 .inputTodo{
-	font-size: .3rem;
+	font-size: 30px;
 	width: 600px;
+	height: 50px;
 	border-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
@@ -151,20 +152,20 @@ html,body {
 footer{
     margin-bottom: 20px;
 	text-align: center;
-	margin-right:  125px;
+	margin-right:  145px;
 
 
 }
 .reset1{
 	position: absolute;
-	top: 300px;
+	top: 295px;
 	font-size: 30px;
 	
 }
 .reset2{
 	position: absolute;
 	font-size: 30px;
-	top: 400px;
+	top: 440px;
 	
 }
 #tools{
@@ -187,9 +188,9 @@ section{
 	height: 10px;
 	border-left: 1px dotted;
 	border-top: 1px dotted;
-	margin-left:190px;
+	margin-left:205px;
 	position: absolute;
-	top: 560px;
+	top: 600px;
 
 
 	
@@ -201,8 +202,8 @@ section{
 	    border-top: 1px dotted;
 	    margin-left:190px;
 	    position: absolute;
-	    right: 210px;
-	    top: 560px;
+	    right: 185px;
+	    top: 600px;
 
 	
 
@@ -212,9 +213,9 @@ section{
 	height: 10px;
 	border-left: 1px dotted;
 	border-bottom: 1px dotted;
-	margin-left:190px;
+	margin-left:205px;
 	position: absolute;
-	top: 950px;
+	top: 990px;
 
 
 }
@@ -225,6 +226,6 @@ section{
 	border-bottom: 1px dotted;
 	margin-left:190px;
 	position: absolute;
-	right: 210px;
-    top: 950px;
+	right: 185px;
+    top: 990px;
 }

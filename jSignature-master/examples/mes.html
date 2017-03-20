@@ -131,13 +131,13 @@ http://dojofoundation.org/license for more information.
 <!-- <script src="../src/plugins/jSignature.UndoButton.js"></script>  -->
 <script src="../src/plugins/signhere/jSignature.SignHere.js"></script> 
 <script>
-// document.body.addEventListener('touchmove', function (event) {
-//     event.preventDefault();
-// }, false);
+document.body.addEventListener('touchmove', function (event) {
+    event.preventDefault();
+}, false);
 $(document).ready(function() {
 	
 	// This is the part where jSignature is initialized.
-	var $sigdiv = $("#signature").jSignature({'UndoButton':true,height:"400px",width:"620px"})
+	var $sigdiv = $("#signature").jSignature({'UndoButton':true,height:"400px",width:"630px"})
 	
 	// All the code below is just code driving the demo. 
 	, $tools = $('#tools')
@@ -174,7 +174,7 @@ $(document).ready(function() {
 		}
 	}).appendTo($tools)
 	
-	$('<input type="button" value="Reset" name="re" calss="re" style="font-size: 30px;position:absolute;left:825px;top:-410px;"> ').bind('click', function(e){
+	$('<input type="button" value="Reset" name="re" calss="re" style="font-size: 30px;position:absolute;left:855px;top:-410px;"> ').bind('click', function(e){
 		$sigdiv.jSignature('reset')
 	}).appendTo($tools)
 	
@@ -243,6 +243,9 @@ $(document).ready(function() {
       }
     })
   
+
+
+
    //get and save canvas data 
    // document.querySelector("#tools span").style.display = "none"
    // document.querySelector("input[value='Reset']").style.display = "inline-block"
@@ -269,7 +272,7 @@ $(document).ready(function() {
      alert('success！')
    
    })
-  
+ 
 </script>
 </body>
 </html>
