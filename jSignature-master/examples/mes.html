@@ -265,7 +265,10 @@ $(document).ready(function() {
       }
     }
     document.querySelector("input[name='re']").click()
-    $.post("http://192.168.3.71:8080/EHR/cusInformation.action?",{"name":name,"email":email,"time":time,"image":canvasData})
+    $.post("http://192.168.3.71:8080/EHR/cusInformation.action?",{"name":name,"email":email,"time":time,"image":canvasData}).done(function(data)
+{
+    alert(data);
+});
     
      document.querySelector("input[name='name']").value = ""
      document.querySelector("input[name='email']").value = ""
